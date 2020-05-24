@@ -12,3 +12,4 @@ libgl1-mesa-dri libgles1 libgles2-mesa xcompmgr
 geany
 piclone
 default-jdk
+unzip
