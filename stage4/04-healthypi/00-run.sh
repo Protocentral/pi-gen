@@ -30,7 +30,7 @@ for file in files/data/*;do
 done
 
 #sed -i -e "${ROOTFS_DIR}\/home\/${FIRST_USER_NAME}\/HealthyPi\/gui/d" ${ROOTFS_DIR}/etc/xdg/lxsession/LXDE-pi/autostart
-echo "@/home/${FIRST_USER_NAME}/HealthyPi/gui &" >> ${ROOTFS_DIR}/etc/xdg/lxsession/LXDE-pi/autostart
+echo "sudo @/home/${FIRST_USER_NAME}/HealthyPi/gui &" >> ${ROOTFS_DIR}/etc/xdg/lxsession/LXDE-pi/autostart
 
 #rm "${ROOTFS_DIR}/usr/share/rpd-wallpaper/temple.jpg"
 install -v -m 644 "files/proto.jpg" "${ROOTFS_DIR}/usr/share/rpd-wallpaper/temple.jpg"
