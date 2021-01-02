@@ -57,6 +57,7 @@
 dtparam=audio=on
 
 enable_uart=1
+lcd_rotate=2
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
