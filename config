@@ -2,3 +2,4 @@ IMG_NAME=healthypi-slim-raspbian
 PRESERVE_CONTAINER=1
 TARGET_HOSTNAME=healthypi
 ENABLE_SSH=1
+CONTINUE=1
